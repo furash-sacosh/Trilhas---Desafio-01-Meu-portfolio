@@ -4,13 +4,28 @@ body {
     text-align:center;
     font-family:arial, sans-serif;
 }
+.mini {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    margin-top: 20px;
+    justify-content: center;
+    margin-left: 30px;
+    
+}
 h2 {
     font-size:40px;
     text-align:center;
+    margin-left: 30px;
 }
 h3 {
     font-size:30px;
     text-align:center;
+    margin-left: 30px;
+}
+.sobre {
+    margin-left: 30px;
 }
 nav {
     display:flex;
@@ -33,9 +48,14 @@ img.eu {
     width:80px; height:80px;
     border-radius:50%;
     margin-top:120px;
+    margin-left: 30px;
 }
 .voltar {
     color:rgb(0, 0, 0);
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+    align-items:center;
     background-color:rgb(173, 204, 202);
     border:1px solid rgb(92, 132, 150);
     border-radius:30px;
@@ -47,6 +67,7 @@ img.eu {
     width:150px;
     box-sizing: border-box;
     align-items:center;
+    margin-left: 30px;
 }
 .grade {
     display: grid;
@@ -91,6 +112,3 @@ img.eu {
     .cartao {
         height: 180px;
 }
-    .pro {
-    text-align;
-    }
